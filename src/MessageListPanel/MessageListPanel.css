@@ -1,0 +1,32 @@
+.message-list-panel {
+  width: 250px;
+  border-right: 1px solid #8080806b;
+  /* height: 100%; */
+}
+.search-bar-header {
+  padding: 5px 0px 15px 10px;
+}
+.search-bar {
+  outline: none;
+  width: 175px;
+  padding: 4px 0px 2px 5px;
+  border: 1px solid #8080806b;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search-icon {
+  width: 12px;
+}
+
+.search-icon-container {
+  padding: 2px 5px;
+  border: 1px solid #8080806b;
+  border-left: none;
+  cursor: pointer;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}

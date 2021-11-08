@@ -1,0 +1,95 @@
+.message-row {
+  display: flex;
+  margin-bottom: 3px;
+  height: 55px;
+  padding: 0px 3px;
+  cursor: pointer;
+}
+
+.message-row:hover {
+  background-color: #9494943d;
+}
+
+.message-unflag {
+  width: 5px;
+  cursor: pointer;
+  background-color: #8080803d;
+}
+
+.message-flag {
+  width: 5px;
+  cursor: pointer;
+  background-color: orange;
+}
+
+.message-body {
+  display: flex;
+  padding: 10px 0px 0px 0px;
+}
+.message {
+  padding-left: 5px;
+  width: 125px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.message-count {
+  background-color: grey;
+  padding: 3px 5px 0px 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+.message-date {
+  border-radius: 5px;
+  font-size: 12px;
+  padding-top: 2px 5px 0px 5px;
+  margin-left: 10px;
+}
+.message-from {
+  padding-top: 2px;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-left: 5px;
+  display: flex;
+}
+
+.message-contact {
+  width: 12px;
+  height: 12px;
+  padding-top: 2px;
+}
+
+.message-contact-no {
+  margin-left: 5px;
+  width: 100px;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.delete-message-container {
+  display: none;
+}
+
+.message-row:hover .delete-message-container {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+
+.delete-message {
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+}
+
+.delete-message:hover {
+  border: 3px solid #85282887;
+  border-radius: 10px;
+  padding: 0px;
+}

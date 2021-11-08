@@ -1,0 +1,38 @@
+.folder-rows-selected {
+  display: flex;
+  padding: 5px 0px;
+  /* cursor: pointer; */
+  background-color: #9494943d;
+}
+
+.folder-rows {
+  display: flex;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+.folder-rows:hover {
+  background-color: #9494943d;
+}
+.folder-label-icon {
+  width: 15px;
+  height: 14px;
+}
+.folder-label-icon-container {
+  padding-top: 2px;
+  padding-left: 5px;
+}
+.folder-label {
+  text-transform: capitalize;
+  margin-left: 10px;
+  /* width: 100px; */
+  padding-top: 1px;
+}
+
+.folder-label-count {
+  background-color: grey;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: small;
+  /* margin-right: 5px; */
+}
